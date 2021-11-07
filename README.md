@@ -1,4 +1,4 @@
-## Golang micro web service
+# Go micro web service And Auth service
 
 ## Database set up
 
@@ -10,7 +10,7 @@ docker-compose up --build -d
 -   default id: root
 -   default password: password
 
-### Start to project
+## Start to project
 
 #### Main server
 
