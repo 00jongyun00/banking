@@ -1,9 +1,23 @@
 ## Golang micro web service
 
-### start to project
+## Database set up
 
 ```
-go run main.go
+docker-compose up --build -d
 ```
 
-http://localhost:8000
+-   use mysql
+-   default id: root
+-   default password: password
+
+### Start to project
+
+#### Main server
+
+-   go run main.go
+    http://localhost:8080
+
+#### Auth server
+
+-   cd ./banking-auth && sh start.sh
+    http://localhost:8181
