@@ -2,7 +2,8 @@ package domain
 
 import (
 	"bangking/dto"
-	"bangking/errs"
+
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 type Customer struct {

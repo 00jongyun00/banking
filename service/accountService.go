@@ -3,8 +3,9 @@ package service
 import (
 	"bangking/domain"
 	"bangking/dto"
-	"bangking/errs"
 	"time"
+
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 const dbTSLayout = "2006-01-02 15:04:05"

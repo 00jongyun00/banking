@@ -1,6 +1,6 @@
 package dto
 
-import "bangking/errs"
+import "github.com/nothingprogram/banking-lib/errs"
 
 type NewAccountRequest struct {
 	CustomerId  string  `json:"customer_id"`

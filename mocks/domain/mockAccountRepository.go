@@ -6,10 +6,10 @@ package domain
 
 import (
 	domain "bangking/domain"
-	errs "bangking/errs"
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 // MockAccountRepository is a mock of AccountRepository interface.

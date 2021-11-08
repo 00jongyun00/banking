@@ -1,11 +1,11 @@
 package domain
 
 import (
-	"bangking/errs"
-	"bangking/logger"
 	"strconv"
 
 	"github.com/jmoiron/sqlx"
+	"github.com/nothingprogram/banking-lib/errs"
+	"github.com/nothingprogram/banking-lib/logger"
 )
 
 type AccountRepositoryDb struct {

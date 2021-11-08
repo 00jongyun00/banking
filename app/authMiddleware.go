@@ -2,11 +2,11 @@ package app
 
 import (
 	"bangking/domain"
-	"bangking/errs"
 	"net/http"
 	"strings"
 
 	"github.com/gorilla/mux"
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 type AuthMiddleware struct {

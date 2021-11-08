@@ -3,10 +3,10 @@ package service
 import (
 	realdomain "bangking/domain"
 	"bangking/dto"
-	"bangking/errs"
 	"bangking/mocks/domain"
 	"testing"
 
+	"github.com/ashishjuyal/banking-lib/errs"
 	"github.com/golang/mock/gomock"
 )
 

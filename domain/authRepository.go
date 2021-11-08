@@ -1,11 +1,12 @@
 package domain
 
 import (
-	"bangking/logger"
 	"encoding/json"
 	"fmt"
 	"net/http"
 	"net/url"
+
+	"github.com/nothingprogram/banking-lib/logger"
 )
 
 type AuthRepository interface {

@@ -1,3 +1,0 @@
-[submodule "banking-auth"]
-	path = banking-auth
-	url = git@github.com:nothingprogram/banking-auth.git

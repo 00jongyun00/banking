@@ -3,7 +3,8 @@ package service
 import (
 	"bangking/domain"
 	"bangking/dto"
-	"bangking/errs"
+
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 type CustomerService interface {

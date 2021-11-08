@@ -2,7 +2,8 @@ package main
 
 import (
 	"bangking/app"
-	"bangking/logger"
+
+	"github.com/nothingprogram/banking-lib/logger"
 )
 
 func main() {

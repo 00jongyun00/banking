@@ -2,7 +2,8 @@ package domain
 
 import (
 	"bangking/dto"
-	"bangking/errs"
+
+	"github.com/nothingprogram/banking-lib/errs"
 )
 
 const dbTSLayout = "2006-01-02 15:04:05"

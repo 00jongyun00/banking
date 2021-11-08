@@ -1,11 +1,11 @@
 package domain
 
 import (
-	"bangking/errs"
-	"bangking/logger"
 	"database/sql"
 
 	"github.com/jmoiron/sqlx"
+	"github.com/nothingprogram/banking-lib/errs"
+	"github.com/nothingprogram/banking-lib/logger"
 
 	_ "github.com/go-sql-driver/mysql"
 )
