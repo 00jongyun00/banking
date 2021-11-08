@@ -15,6 +15,7 @@ type DefaultCustomerService struct {
 	repo domain.CustomerRepository
 }
 
+//go:generate mockgen -destination=../mocks/service/mockCustomerService.go -package=service bangking/service CustomerService
 func (s DefaultCustomerService) GetAllCustomer(status string) ([]dto.CustomerResponse, *errs.AppError) {
 	if status == "active" {
 		status = "1"
